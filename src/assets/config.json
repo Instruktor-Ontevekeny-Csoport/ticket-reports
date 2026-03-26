@@ -1,8 +1,11 @@
 {
-  "version": "v1.1.1",
+  "version": "v1.1.2",
   "variations": {
-    "26155": "Gólya/Instruktor",
-    "26156": "SE",
-    "26157": "Kísérő"
+    "28253": "Kísérő - MFF",
+    "28252": "Kísérő - Alap",
+    "28251": "Semmelweis - MFF",
+    "28250": "Semmelweis - Alap",
+    "28572": "Támogató - MFF",
+    "28571": "Támogató - Alap"
   }
 }
