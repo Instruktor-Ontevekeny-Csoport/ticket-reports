@@ -13,7 +13,7 @@ export interface Ticket {
 }
 
 export interface Attendee {
-  'Fényképes igazolvány szám/ID number': string;
-  'Név/Name': string;
-  'Kísérő neve': string;
+  'Fényképes igazolvány szám / ID number': string;
+  'Név / Name': string;
+  'Kísért személy neve / Name of accompanied person': string;
 }

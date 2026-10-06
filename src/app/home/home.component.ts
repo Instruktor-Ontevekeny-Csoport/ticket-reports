@@ -156,9 +156,9 @@ export class HomeComponent implements OnInit {
         this.ticketStatistics[variationId]++;
 
 
-        ticket.attendeeId = ticket.WooCommerceEventsCustomAttendeeFields['Fényképes igazolvány szám/ID number'];
-        ticket.attendeeName = ticket.WooCommerceEventsCustomAttendeeFields['Név/Name'];
-        ticket.accompanist = ticket.WooCommerceEventsCustomAttendeeFields['Kísérő neve'];
+        ticket.attendeeId = ticket.WooCommerceEventsCustomAttendeeFields['Fényképes igazolvány szám / ID number'];
+        ticket.attendeeName = ticket.WooCommerceEventsCustomAttendeeFields['Név / Name'];
+        ticket.accompanist = ticket.WooCommerceEventsCustomAttendeeFields['Kísért személy neve / Name of accompanied person'];
         ticket.WooCommerceEventsCustomAttendeeFields = null;
       });
       this.ticketDataSource = new MatTableDataSource(this.event.eventTickets);
